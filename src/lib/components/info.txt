@@ -1,0 +1,3 @@
+put all your components inside this folder
+
+just delete this text file
