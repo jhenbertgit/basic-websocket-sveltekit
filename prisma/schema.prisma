@@ -14,10 +14,7 @@ datasource db {
 }
 
 //put your model here
-model User {
-  id        String   @id
-  username  String
-  password  String
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+model Image {
+  id       String @id
+  fileName String
 }

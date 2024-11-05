@@ -19,6 +19,8 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
+		"@aws-sdk/client-s3": "^3.685.0",
+		"@aws-sdk/s3-request-presigner": "^3.685.0",
 		"@skeletonlabs/skeleton": "^2.10.2",
 		"@skeletonlabs/tw-plugin": "^0.4.0",
 		"@sveltejs/adapter-auto": "^3.0.0",
@@ -32,7 +34,10 @@
 		"eslint": "^9.0.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.36.0",
+		"fs": "^0.0.1-security",
 		"globals": "^15.0.0",
+		"lucia": "^3.2.2",
+		"path": "^0.12.7",
 		"prettier": "^3.1.1",
 		"prettier-plugin-svelte": "^3.1.2",
 		"prettier-plugin-tailwindcss": "^0.6.5",
